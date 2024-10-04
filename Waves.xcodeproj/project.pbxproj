@@ -9,18 +9,22 @@
 /* Begin PBXBuildFile section */
 		54A0CCD42CAE85BC003B909F /* WavesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0CCD32CAE85BC003B909F /* WavesApp.swift */; };
 		54A0CCD62CAE85BC003B909F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0CCD52CAE85BC003B909F /* ContentView.swift */; };
-		54A0CCD82CAE85BC003B909F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0CCD72CAE85BC003B909F /* Item.swift */; };
 		54A0CCDA2CAE85BD003B909F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CCD92CAE85BD003B909F /* Assets.xcassets */; };
 		54A0CCDD2CAE85BD003B909F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A0CCDC2CAE85BD003B909F /* Preview Assets.xcassets */; };
+		54A0CCE42CAE8629003B909F /* RippleEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0CCE32CAE8629003B909F /* RippleEffectView.swift */; };
+		54A0CCE62CAE8935003B909F /* UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0CCE52CAE8935003B909F /* UIViewRepresentable.swift */; };
+		54C509CD2CB077F00063928A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C509CC2CB077F00063928A /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		54A0CCD02CAE85BC003B909F /* Waves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54A0CCD32CAE85BC003B909F /* WavesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavesApp.swift; sourceTree = "<group>"; };
 		54A0CCD52CAE85BC003B909F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		54A0CCD72CAE85BC003B909F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		54A0CCD92CAE85BD003B909F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54A0CCDC2CAE85BD003B909F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54A0CCE32CAE8629003B909F /* RippleEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleEffectView.swift; sourceTree = "<group>"; };
+		54A0CCE52CAE8935003B909F /* UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentable.swift; sourceTree = "<group>"; };
+		54C509CC2CB077F00063928A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				54A0CCD32CAE85BC003B909F /* WavesApp.swift */,
+				54C509CC2CB077F00063928A /* HomeView.swift */,
 				54A0CCD52CAE85BC003B909F /* ContentView.swift */,
-				54A0CCD72CAE85BC003B909F /* Item.swift */,
+				54A0CCE32CAE8629003B909F /* RippleEffectView.swift */,
+				54A0CCE52CAE8935003B909F /* UIViewRepresentable.swift */,
 				54A0CCD92CAE85BD003B909F /* Assets.xcassets */,
 				54A0CCDB2CAE85BD003B909F /* Preview Content */,
 			);
@@ -141,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				54A0CCD62CAE85BC003B909F /* ContentView.swift in Sources */,
-				54A0CCD82CAE85BC003B909F /* Item.swift in Sources */,
+				54A0CCE42CAE8629003B909F /* RippleEffectView.swift in Sources */,
+				54C509CD2CB077F00063928A /* HomeView.swift in Sources */,
+				54A0CCE62CAE8935003B909F /* UIViewRepresentable.swift in Sources */,
 				54A0CCD42CAE85BC003B909F /* WavesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
