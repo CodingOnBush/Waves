@@ -11,7 +11,7 @@ import SwiftUI
 struct WavesApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            LakeView()
         }
     }
 }

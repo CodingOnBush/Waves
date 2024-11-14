@@ -17,7 +17,7 @@ struct Ripple: Identifiable {
     var opacity: Double
 }
 
-struct Lake: View {
+struct LakeView: View {
     @State private var tapLocation: CGPoint = .zero
     @State private var ripples: [Ripple] = []
     @State private var isTouching: Bool = false // Pour suivre l'état de l'appui
